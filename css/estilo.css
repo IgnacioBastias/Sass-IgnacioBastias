@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.textoI{
+color: rgba(90, 131, 184, 0.884);
+font-size: 1.2rem;
+padding: 20px;
+}
+.logo{
+    width: 15vw;
+}
+.logo1{
+    width: 5vw;
+}
+#navbarSupportedContent ul li a{
+    transition: all .3s;
+}
+#navbarSupportedContent ul li a:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 5px;
+    color: rgba(42, 41, 109, 0.918);
+    background-color: rgba(90, 131, 184, 0.438);
+}
+#buttons button{
+    color: rgba(42, 41, 109, 0.918);
+    transition: all .3s;
+}
+#buttons button a{ 
+    text-decoration: none;
+}
+#buttons button:hover{
+    transform: scale(1.1,1.1);
+    color: aliceblue;
+    background-color: rgba(90, 131, 184, 0.438);
+}
+#footer{
+    background-color: rgba(240, 245, 250, 0.562);
+}
+@media only screen and (max-width:600px){
+    .textoI{
+        font-size: 1rem;
+    }
+}
+.card-body .btn{
+    color: rgba(42, 41, 109, 0.918);
+    transition: all .3s;
+}
+.card-body .btn:hover{
+    transform: scale(1.1,1.1);
+    color: aliceblue;
+    background-color: rgba(90, 131, 184, 0.568);
+}
