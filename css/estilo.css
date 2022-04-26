@@ -1,45 +1,74 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 #navbarSupportedContent ul li a {
-  transition: all .3s; }
-  #navbarSupportedContent ul li a:hover {
-    transform: scale(1.1, 1.1);
-    border-radius: 5px;
-    color: rgba(42, 41, 109, 0.918);
-    background-color: rgba(90, 131, 184, 0.438); }
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#navbarSupportedContent ul li a:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  border-radius: 5px;
+  color: rgba(42, 41, 109, 0.918);
+  background-color: rgba(90, 131, 184, 0.438);
+}
 
 .logo {
-  width: 15vw; }
+  width: 15vw;
+}
 
 .logo1 {
-  width: 5vw; }
+  width: 5vw;
+}
 
 #buttons a {
   color: rgba(42, 41, 109, 0.918);
-  transition: all .3s; }
-  #buttons a .btn {
-    text-decoration: none; }
-    #buttons a .btn:hover {
-      transform: scale(1.1, 1.1);
-      color: aliceblue;
-      background-color: rgba(90, 131, 184, 0.438); }
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#buttons a .btn {
+  text-decoration: none;
+}
+
+#buttons a .btn:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  color: aliceblue;
+  background-color: rgba(90, 131, 184, 0.438);
+}
 
 .textoI {
-  color: rgba(90, 131, 184, 0.438);
+  color: rgba(42, 41, 109, 0.644);
   font-size: 1.2rem;
-  padding: 20px; }
+  padding: 20px;
+}
 
 @media only screen and (max-width: 600px) {
   .textoI {
-    font-size: 1rem; } }
+    font-size: 1rem;
+  }
+}
+
+.card-body .card-text {
+  color: rgba(42, 41, 109, 0.644);
+}
 
 .card-body .btn {
   color: rgba(42, 41, 109, 0.918);
-  transition: all .3s; }
-  .card-body .btn:hover {
-    transform: scale(1.1, 1.1);
-    color: aliceblue;
-    background-color: rgba(90, 131, 184, 0.438); }
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.card-body .btn:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  color: aliceblue;
+  background-color: rgba(90, 131, 184, 0.438);
+}
+/*# sourceMappingURL=estilo.css.map */
