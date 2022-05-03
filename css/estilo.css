@@ -15,7 +15,7 @@
           transform: scale(1.1, 1.1);
   border-radius: 5px;
   color: rgba(42, 41, 109, 0.918);
-  background-color: rgba(90, 131, 184, 0.438);
+  background-color: #5a83b870;
 }
 
 .logo {
@@ -40,7 +40,22 @@
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
   color: aliceblue;
-  background-color: rgba(90, 131, 184, 0.438);
+  background-color: #5a83b870;
+}
+
+.card-body .card-text {
+  color: rgba(42, 41, 109, 0.644);
+}
+
+.card-body .btn {
+  text-decoration: none;
+}
+
+.card-body .btn:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  color: aliceblue;
+  background-color: #5a83b870;
 }
 
 .textoI {
@@ -55,20 +70,18 @@
   }
 }
 
-.card-body .card-text {
-  color: rgba(42, 41, 109, 0.644);
+.mapa, .form {
+  -webkit-transition: all .7s;
+  transition: all .7s;
 }
 
-.card-body .btn {
-  color: rgba(42, 41, 109, 0.918);
-  -webkit-transition: all .3s;
-  transition: all .3s;
+.mapa:hover, .form:hover {
+  -webkit-box-shadow: 5px 5px 50px 7px #999;
+          box-shadow: 5px 5px 50px 7px #999;
 }
 
-.card-body .btn:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  color: aliceblue;
-  background-color: rgba(90, 131, 184, 0.438);
+.card-body {
+  -webkit-transition: all .7s;
+  transition: all .7s;
 }
 /*# sourceMappingURL=estilo.css.map */
