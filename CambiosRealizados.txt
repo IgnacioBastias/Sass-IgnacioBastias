@@ -1,0 +1,10 @@
+SCSS:
+
+-Se agrego Mixin en _body.scss .btn
+-Se agrego Extend en _body.scss .mapa 
+
+SEO: 
+
+-Se modificaron los title de cada pagina
+-Se agrego Meta description distintas en cada pagina  
+-Se agregaron keywords en todas las paginas 
