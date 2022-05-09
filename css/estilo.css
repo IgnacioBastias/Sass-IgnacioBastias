@@ -70,6 +70,11 @@ body {
   padding: 20px;
 }
 
+#reseña {
+  width: 60vw;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   .textoI {
     font-size: 1rem;
@@ -103,7 +108,7 @@ body {
             flex-direction: row;
   }
   #reseña {
-    width: 80%;
+    width: 95vw;
   }
 }
 
@@ -124,11 +129,6 @@ body {
 
 .stepImg {
   width: 15vw;
-}
-
-#reseña {
-  width: 60vw;
-  border-radius: 10px;
 }
 
 .clientes {
