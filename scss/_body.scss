@@ -8,6 +8,10 @@
            }
         }
 }
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 #buttons{ 
     a{ 
     color: $color-btn;
@@ -26,9 +30,23 @@
     font-size: 1.2rem;
     padding: 20px;
     }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
     .textoI{
         font-size: 1rem;
+    }
+    .secciones{
+        display: flex;
+        justify-content: space-evenly;
+        .seccion{
+            flex-direction: row; 
+        }
+    }
+    .redes{
+        display: flex;
+        justify-content: space-evenly;
+        .red{
+            flex-direction: row;
+        }
     }
 }
 .mapa{
@@ -42,4 +60,7 @@
 }
 .card-body{
     transition: all .7s;
+}
+.stepImg{
+    width: 15vw;
 }

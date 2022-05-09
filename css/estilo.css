@@ -26,6 +26,11 @@
   width: 5vw;
 }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #buttons a {
   color: rgba(42, 41, 109, 0.918);
   -webkit-transition: all .3s;
@@ -64,9 +69,37 @@
   padding: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .textoI {
     font-size: 1rem;
+  }
+  .secciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .secciones .seccion {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .redes .red {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -83,5 +116,9 @@
 .card-body {
   -webkit-transition: all .7s;
   transition: all .7s;
+}
+
+.stepImg {
+  width: 15vw;
 }
 /*# sourceMappingURL=estilo.css.map */
