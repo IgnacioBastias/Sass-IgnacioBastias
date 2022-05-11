@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.head{
+    text-decoration: none;
+    
+}
 #navbarSupportedContent ul li a{
     transition: all .3s;
     &:hover{
